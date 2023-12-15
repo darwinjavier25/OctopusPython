@@ -22,3 +22,4 @@ data = a.json()
 
 df = pd.DataFrame(data['data']['characters']['results'])
 print(df)
+print("Success")
