@@ -14,7 +14,7 @@ config.read('/home/dw/Octopus/PythonOctopus/resources/config.ini')
 query1 = config['paths']['query']
 url1 = config['paths']['url']
 
-inst = getJson
+inst = getJson('API')
 a = inst.getData(url1, query1)
 print(a.json())
 
